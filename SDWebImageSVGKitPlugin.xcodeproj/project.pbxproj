@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F82E5E24E2F7830067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5D24E2F7830067D40D /* SVGKit.xcframework */; };
-		04F82E5F24E2F7830067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5D24E2F7830067D40D /* SVGKit.xcframework */; };
-		04F82E6024E2F7830067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5D24E2F7830067D40D /* SVGKit.xcframework */; };
+		04F82E6B24E2FC460067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E6A24E2FC460067D40D /* SVGKit.xcframework */; };
+		04F82E6C24E2FC460067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E6A24E2FC460067D40D /* SVGKit.xcframework */; };
+		04F82E6D24E2FC460067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E6A24E2FC460067D40D /* SVGKit.xcframework */; };
 		3212D8A4237BE8A500F6C7DA /* SDSVGKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212D895237BE8A500F6C7DA /* SDSVGKImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3212D8A6237BE8A500F6C7DA /* SVGKImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212D897237BE8A500F6C7DA /* SVGKImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3212D8A7237BE8A500F6C7DA /* SDWebImageSVGKitDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3212D898237BE8A500F6C7DA /* SDWebImageSVGKitDefine.m */; };
@@ -56,7 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04F82E5D24E2F7830067D40D /* SVGKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SVGKit.xcframework; sourceTree = "<group>"; };
+		04F82E6A24E2FC460067D40D /* SVGKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SVGKit.xcframework; path = ../SVGKit/build/SVGKit.xcframework; sourceTree = "<group>"; };
 		3212D888237BE87500F6C7DA /* SDWebImageSVGKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212D895237BE8A500F6C7DA /* SDSVGKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSVGKImage.h; sourceTree = "<group>"; };
 		3212D897237BE8A500F6C7DA /* SVGKImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVGKImageView+WebCache.h"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3212D8E4237BEE6100F6C7DA /* SDWebImage.framework in Frameworks */,
-				04F82E5E24E2F7830067D40D /* SVGKit.xcframework in Frameworks */,
+				04F82E6B24E2FC460067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3212D8EB237BEE7E00F6C7DA /* SDWebImage.framework in Frameworks */,
-				04F82E5F24E2F7830067D40D /* SVGKit.xcframework in Frameworks */,
+				04F82E6C24E2FC460067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3212D8F4237BEE9000F6C7DA /* SDWebImage.framework in Frameworks */,
-				04F82E6024E2F7830067D40D /* SVGKit.xcframework in Frameworks */,
+				04F82E6D24E2FC460067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +163,7 @@
 		3212D8DC237BEE3100F6C7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04F82E5D24E2F7830067D40D /* SVGKit.xcframework */,
+				04F82E6A24E2FC460067D40D /* SVGKit.xcframework */,
 				3212D8F1237BEE9000F6C7DA /* SDWebImage.framework */,
 				3212D8E9237BEE7E00F6C7DA /* SDWebImage.framework */,
 				3212D8DD237BEE3100F6C7DA /* SDWebImage.framework */,
