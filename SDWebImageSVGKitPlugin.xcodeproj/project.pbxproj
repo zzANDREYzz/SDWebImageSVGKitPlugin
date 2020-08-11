@@ -3,18 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BD84B524DD82CD0024338F /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B324DD82CD0024338F /* SVGKit.framework */; };
-		04BD84B624DD82CD0024338F /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B324DD82CD0024338F /* SVGKit.framework */; };
-		04BD84B924DD82D10024338F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B724DD82D10024338F /* CocoaLumberjack.framework */; };
-		04BD84BA24DD82D10024338F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B724DD82D10024338F /* CocoaLumberjack.framework */; };
-		04BD84BB24DD82D80024338F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B724DD82D10024338F /* CocoaLumberjack.framework */; };
-		04BD84BC24DD82D80024338F /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B724DD82D10024338F /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04BD84BE24DD82DA0024338F /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B324DD82CD0024338F /* SVGKit.framework */; };
-		04BD84BF24DD82DA0024338F /* SVGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD84B324DD82CD0024338F /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04F82E5A24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5924E2F59E0067D40D /* SVGKit.xcframework */; };
+		04F82E5B24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5924E2F59E0067D40D /* SVGKit.xcframework */; };
+		04F82E5C24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F82E5924E2F59E0067D40D /* SVGKit.xcframework */; };
 		3212D8A4237BE8A500F6C7DA /* SDSVGKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212D895237BE8A500F6C7DA /* SDSVGKImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3212D8A6237BE8A500F6C7DA /* SVGKImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212D897237BE8A500F6C7DA /* SVGKImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3212D8A7237BE8A500F6C7DA /* SDWebImageSVGKitDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3212D898237BE8A500F6C7DA /* SDWebImageSVGKitDefine.m */; };
@@ -54,8 +49,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04BD84BF24DD82DA0024338F /* SVGKit.framework in Embed Frameworks */,
-				04BD84BC24DD82D80024338F /* CocoaLumberjack.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,8 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04BD84B324DD82CD0024338F /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVGKit.framework; sourceTree = "<group>"; };
-		04BD84B724DD82D10024338F /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		04F82E5924E2F59E0067D40D /* SVGKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SVGKit.xcframework; sourceTree = "<group>"; };
 		3212D888237BE87500F6C7DA /* SDWebImageSVGKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageSVGKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212D895237BE8A500F6C7DA /* SDSVGKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSVGKImage.h; sourceTree = "<group>"; };
 		3212D897237BE8A500F6C7DA /* SVGKImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVGKImageView+WebCache.h"; sourceTree = "<group>"; };
@@ -89,9 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BD84BE24DD82DA0024338F /* SVGKit.framework in Frameworks */,
-				04BD84BB24DD82D80024338F /* CocoaLumberjack.framework in Frameworks */,
 				3212D8E4237BEE6100F6C7DA /* SDWebImage.framework in Frameworks */,
+				04F82E5A24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BD84B524DD82CD0024338F /* SVGKit.framework in Frameworks */,
-				04BD84B924DD82D10024338F /* CocoaLumberjack.framework in Frameworks */,
 				3212D8EB237BEE7E00F6C7DA /* SDWebImage.framework in Frameworks */,
+				04F82E5B24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,9 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BD84B624DD82CD0024338F /* SVGKit.framework in Frameworks */,
-				04BD84BA24DD82D10024338F /* CocoaLumberjack.framework in Frameworks */,
 				3212D8F4237BEE9000F6C7DA /* SDWebImage.framework in Frameworks */,
+				04F82E5C24E2F59E0067D40D /* SVGKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +163,8 @@
 		3212D8DC237BEE3100F6C7DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04BD84B724DD82D10024338F /* CocoaLumberjack.framework */,
+				04F82E5924E2F59E0067D40D /* SVGKit.xcframework */,
 				3212D8F1237BEE9000F6C7DA /* SDWebImage.framework */,
-				04BD84B324DD82CD0024338F /* SVGKit.framework */,
 				3212D8E9237BEE7E00F6C7DA /* SDWebImage.framework */,
 				3212D8DD237BEE3100F6C7DA /* SDWebImage.framework */,
 			);
