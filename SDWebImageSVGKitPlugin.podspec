@@ -33,6 +33,5 @@ TODO: Add long description of the pod here.
   s.source_files = 'SDWebImageSVGKitPlugin/Classes/**/*', 'SDWebImageSVGKitPlugin/Module/SDWebImageSVGKitPlugin.h'
   s.module_map = 'SDWebImageSVGKitPlugin/Module/SDWebImageSVGKitPlugin.modulemap'
   s.dependency 'SDWebImage/Core', '~> 5.6'
-  s.dependency 'CocoaLumberjack', '~> 3.0'
   s.ios.vendored_frameworks = 'SVGKit.xcframework'
 end
